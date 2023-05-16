@@ -1,0 +1,17 @@
+
+<div class="card text-white bg-dark mb-3">
+    <div class="card-body">
+        <h5 class="card-title">Idiomas</h5>
+        <div *ngFor="let language of languages">
+            <h6 class="text-white-50 mt-3">
+                {{ language.language }}
+            </h6>
+            <span>
+                <small>
+                    Nivel: {{ language.level }}
+                </small>
+            </span>
+        </div>
+    </div>
+</div>
+

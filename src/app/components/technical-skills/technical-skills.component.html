@@ -1,0 +1,22 @@
+
+<div class="card text-white bg-dark mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Habilidades Tecnológicas</h5>
+    <h6>
+      Web
+    </h6>
+    <span
+      *ngFor="let webTool of webTools"
+      class="badge rounded-pill bg-secondary text-dark me-1">
+        {{ webTool }}
+    </span>
+    <h6 class="mt-4">
+      Diseño
+    </h6>
+    <span
+      *ngFor="let designTool of designTools"
+      class="badge rounded-pill bg-secondary text-dark me-1">
+      {{ designTool }}
+    </span>
+  </div>
+</div>
