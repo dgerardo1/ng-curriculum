@@ -1,1 +1,15 @@
-<p>additional-information works!</p>
+<div class="card text-white bg-dark mb-3">
+    <div class="card-body">
+        <h5 class="card-title">Información Adicional</h5>
+
+        <ul class="list-group">
+            <li
+              *ngFor="let item of items"
+              class="list-group-item list-group-item-dark">
+                {{item}}
+            </li>
+        </ul>
+        
+    </div>
+</div>
+
