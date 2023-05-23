@@ -1,8 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --auxiliary-color-1: #2197a3;
+    --auxiliary-color-2: #5adb94;
+    --auxiliary-color-3: #4d3147;
+  }
 
 .img-profile {
     width: 216px;
     height: 216px;
+}
+
+.text-table {
+    font-size: 0.86rem;
+}
+
+.auxiliary-color-1 {
+    border: 1px solid var(--auxiliary-color-1);
+}
+.auxiliary-color-2 {
+    border: 1px solid var(--auxiliary-color-2);
+}
+.auxiliary-color-3 {
+    border: 1px solid var(--auxiliary-color-3);
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -20,7 +39,11 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .text-table {
+        font-size: inherit;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}

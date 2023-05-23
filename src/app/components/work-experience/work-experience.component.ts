@@ -15,9 +15,9 @@ export class WorkExperienceComponent {
       startDate: 'Dic. 2020',
       endDate: 'Mar. 2023',
       activities: [
-        'Gestioné las actividades del equipo de Frotend.',
-        'Desarrollé para web (Frontend).',
-        'Maqueté interfaces de usuario para la web.',
+        'Gestioné las actividades del equipo de frot end.',
+        'Realicé desarrollo web front end.',
+        'Maqueté interfaces de usuario web.',
         'Analicé y diseñé productos web (UX/UI).',
         'Realicé mantenimiento y actualización de sitios y aplicaciones web.',
       ]

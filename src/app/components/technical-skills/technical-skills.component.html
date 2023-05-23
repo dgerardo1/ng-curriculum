@@ -1,21 +1,23 @@
 
-<div class="card mb-3">
+<div class="card border-0 shadow-sm mb-3">
   <div class="card-body">
-    <h5 class="card-title">Habilidades Tecnológicas</h5>
+    <h5 class="card-title text-secondary">Habilidades Tecnológicas</h5>
     <h6>
       Web
     </h6>
     <span
-      *ngFor="let webTool of webTools"
-      class="badge rounded-pill bg-secondary text-dark me-1">
+      *ngFor="let webTool of webTools; index as i"
+      class="badge rounded-pill text-secondary me-1"
+      [ngClass]="i % 2 === 0 ? 'auxiliary-color-1' : 'auxiliary-color-2'">
         {{ webTool }}
     </span>
     <h6 class="mt-4">
       Diseño
     </h6>
     <span
-      *ngFor="let designTool of designTools"
-      class="badge rounded-pill bg-secondary text-dark me-1">
+      *ngFor="let designTool of designTools; index as i"
+      class="badge rounded-pill text-secondary me-1"
+      [ngClass]="i % 2 === 0 ? 'auxiliary-color-1' : 'auxiliary-color-2'">
       {{ designTool }}
     </span>
   </div>

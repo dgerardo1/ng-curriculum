@@ -1,9 +1,10 @@
-<h2 class="mt-4 text-white-50">
-    <i class="bi bi-person-gear text-primary"></i>
+<h2 class="text-primary">
+    <i class="bi bi-person-gear text-secondary"></i>
     Experiencia Laboral
 </h2>
-<div *ngFor="let job of jobs" class="card text-white bg-dark mt-3">
-    <div class="card-header">{{ job.company }} | 
+<div *ngFor="let job of jobs" class="card shadow border-0 mt-3">
+    <div class="card-header">
+        {{ job.company }} | 
         <small>
             {{ job.startDate }} - {{ job.endDate }} |
             <i>{{ job.modality }}</i>

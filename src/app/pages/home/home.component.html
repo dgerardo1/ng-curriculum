@@ -1,24 +1,24 @@
-<main class="container">
+<main class="container" style="margin-top: 72px;">
     <!-- Profile -->
     <div class="row">
         <div class="col">
             <app-profile></app-profile>
         </div>
     </div>
+    <!-- Information -->
     <div class="row mt-5">
-        <!-- Left Column -->
-        <div class="col-12 col-md-4">
+        <!-- Experience column -->
+        <div class="col-12 col-md-8 order-md-last">
+            <app-work-experience></app-work-experience>
+            <app-education></app-education>
+        </div>
+        <!-- Skills column -->
+        <div class="col-12 col-md-4 order-md-first mb-3">
             <app-technical-skills></app-technical-skills>
             <app-soft-skills></app-soft-skills>
             <app-courses></app-courses>
             <app-languages></app-languages>
             <app-additional-information></app-additional-information>
-        </div>
-        <!-- Right Column -->
-        <div class="col-12 col-md-8">
-            <!-- Profile -->
-            <app-work-experience></app-work-experience>
-            <app-education></app-education>
         </div>
     </div>
 </main>
