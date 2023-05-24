@@ -39,12 +39,9 @@ export class PortfolioComponent implements OnInit{
   }
 
   getSites(){
-    console.log('IS LOADING', this.isLoading)
     this.netlifyService.getSites().subscribe( resp => {
       this.sitesList = resp;
-      console.log(this.sitesList);
       this.isLoading = false;
-      console.log( this.isLoading )
     });
   }
 

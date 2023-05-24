@@ -1,4 +1,14 @@
-# NgCurriculum
+# Descripción
+En mi currículum vitae podrás ver mi trayectoria laboral y los estudios con los que cuento. Esta breve app está hecha con Angular, utilizando las siguientes características del framwork:
+
+- Rutas
+- Servicios
+- Solicitudes http
+- directivas como ngFor, ngIf, ngClass
+- Bootstrap
+- Componentes reutilizables
+
+## NgCurriculum
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
 
