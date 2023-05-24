@@ -1,5 +1,5 @@
 # Descripción
-En mi currículum vitae podrás ver mi trayectoria laboral y los estudios con los que cuento. Esta breve app está hecha con Angular, utilizando las siguientes características del framwork:
+En mi currículum vitae podrás ver mi trayectoria laboral y los estudios con los que cuento. Esta breve app está hecha con Angular, utilizando las siguientes características del framework y de las SPA:
 
 - Rutas
 - Servicios
