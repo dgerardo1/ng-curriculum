@@ -20,6 +20,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { TechnicalSkillsComponent } from './components/technical-skills/technical-skills.component';
 import { SoftSkillsComponent } from './components/soft-skills/soft-skills.component';
 import { LanguagesComponent } from './components/languages/languages.component';
+import { CardListComponent } from './components/card-list/card-list.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { LanguagesComponent } from './components/languages/languages.component';
     TechnicalSkillsComponent,
     SoftSkillsComponent,
     LanguagesComponent,
+    CardListComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,12 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { NetlifyService } from 'src/app/services/netlify.service';
+import { Observable, Subscription } from 'rxjs';
+import { SitesResponse } from 'src/app/interfaces/sites.interfaces';
 
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.css']
 })
-export class PortfolioComponent implements OnInit {
+export class PortfolioComponent implements OnInit{
+
+  sitesList:any[] = [];
+  isLoading: boolean = true;
 
   webProjects = [
     {
@@ -26,14 +31,21 @@ export class PortfolioComponent implements OnInit {
     },
   ]
 
-  constructor( private netlifyService: NetlifyService ){}
+  constructor( private netlifyService: NetlifyService ){
+  }
 
-  ngOnInit():void{
-    this.getSites()
+  ngOnInit(): void {
+    this.getSites();
   }
 
   getSites(){
-    this.netlifyService.getSites();
+    console.log('IS LOADING', this.isLoading)
+    this.netlifyService.getSites().subscribe( resp => {
+      this.sitesList = resp;
+      console.log(this.sitesList);
+      this.isLoading = false;
+      console.log( this.isLoading )
+    });
   }
 
 }

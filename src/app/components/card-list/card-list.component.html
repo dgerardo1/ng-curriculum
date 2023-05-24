@@ -1,0 +1,20 @@
+<div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2 g-md-4">
+    <div
+      *ngFor="let site of sites"
+      class="col">
+        <div class="card shadow border-0">
+            <img
+              src="{{ site.screenshot_url }}"
+              class="card-img-top"
+              alt=""> 
+            <div class="card-body">
+                <h6 class="card-title">{{ site.default_domain }}</h6>
+                <div class="d-grid">
+                  <a href="{{ site.ssl_url }}" target="_blank" class="btn btn-link border">
+                    Visitar 
+                  </a>
+                </div>
+            </div>
+          </div>
+    </div>
+</div>
