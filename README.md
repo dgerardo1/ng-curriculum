@@ -8,6 +8,8 @@ En mi currículum vitae podrás ver mi trayectoria laboral y los estudios con lo
 - Bootstrap
 - Componentes reutilizables
 
+Además hace uso del despliegue continuo o CD (continuous deployment), tomando las actualizaciones desde GitHub.
+
 ## NgCurriculum
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
