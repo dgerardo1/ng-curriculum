@@ -14,7 +14,7 @@ export class LanguagesComponent {
     },
     {
       language: 'Inglés',
-      level: 'Conversacional',
+      level: 'B1',
     }
   ]
 

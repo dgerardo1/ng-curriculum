@@ -9,7 +9,7 @@ export class WorkExperienceComponent {
 
   jobs = [
     {
-      title: 'Frontend Developer',
+      title: 'Front-end Developer',
       company: 'Smart Plus',
       modality: 'Remoto',
       startDate: 'Dic. 2020',
@@ -23,7 +23,7 @@ export class WorkExperienceComponent {
       ]
     },
     {
-      title: 'UX UI Designer & Developer',
+      title: 'Diseñador UX|UI y Front-end Developer',
       company: 'MyCaribu',
       modality: 'Remoto',
       startDate: 'Ene. 2020',
