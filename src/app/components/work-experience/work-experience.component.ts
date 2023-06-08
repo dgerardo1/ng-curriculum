@@ -42,7 +42,7 @@ export class WorkExperienceComponent {
       startDate: 'May. 2016',
       endDate: 'Mar. 2019',
       activities: [
-        'Diseñé y desarrollé de sitios web.',
+        'Diseñé y desarrollé sitios web.',
         'Diseñé y gestioné contenido para web y redes sociales.',
         'Gestioné las actividades y recursos del área (humanos y económicos).',
         'Realicé mantenimiento y actualización de sitios web.',
