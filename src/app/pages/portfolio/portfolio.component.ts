@@ -29,6 +29,11 @@ export class PortfolioComponent implements OnInit{
       img: 'luxury-style-central.jpg',
       link: 'https://luxurystylecentral.com/',
     },
+    {
+      title: 'RX Investment',
+      img: 'rx-investment.jpg',
+      link: 'https://rxinvestment.mx/',
+    },
   ]
 
   constructor( private netlifyService: NetlifyService ){
