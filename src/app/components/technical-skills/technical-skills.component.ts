@@ -21,12 +21,19 @@ export class TechnicalSkillsComponent {
     'Vue JS',
     'Woocommerce',
     'WordPress',
+    'AWS'
   ]
 
   designTools = [
     'Photoshop',
     'Illustrator',
     'XD',
+  ]
+
+  computerTools = [
+    'Microsoft 365',
+    'Windows OS',
+    'Mac OS',
   ]
 
 }

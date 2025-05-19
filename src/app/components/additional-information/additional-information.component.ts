@@ -8,10 +8,9 @@ import { Component } from '@angular/core';
 export class AdditionalInformationComponent {
 
   items = [
-    'Manejo de plataformas Windows y Mac OS',
-    'He trabajado bajo la metodología ágil SCRUM',
-    'He desarrollado proyectos de forma independiente, aumentando mi experiencia y habilidades en diseño y desarrollo web',
-    'He sido instructor independiente en materia de Informática y Diseño y Desarrollo Web',
-  ]
+            'He trabajado con metodologías ágiles como Scrum, aplicando principios de gestión eficiente.',
+            'He desarrollado proyectos de forma independiente, fortaleciendo mis habilidades en diseño y desarrollo web.',
+            'He sido instructor independiente en informática y diseño web, impartiendo formación especializada.'
+          ]
 
 }

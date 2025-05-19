@@ -12,6 +12,15 @@
         {{ webTool }}
     </span>
     <h6 class="text-secondary mt-4">
+      Ofimática
+    </h6>
+    <span
+      *ngFor="let computerTool of computerTools; index as i"
+      class="badge rounded-pill text-secondary me-1"
+      [ngClass]="i % 2 === 0 ? 'auxiliary-color-1' : 'auxiliary-color-2'">
+      {{ computerTool }}
+    </span>
+    <h6 class="text-secondary mt-4">
       Diseño
     </h6>
     <span

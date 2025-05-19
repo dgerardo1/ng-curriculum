@@ -13,6 +13,9 @@ export class SoftSkillsComponent {
     'Proactividad',
     'Resiliencia',
     'Trabajo en equipo',
+    'Comunicación efectiva',
+    'Resolución de conflictos',
+    'Adaptabilidad',
   ]
 
 }
