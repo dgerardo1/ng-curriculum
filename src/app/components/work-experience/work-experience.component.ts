@@ -45,7 +45,7 @@ export class WorkExperienceComponent {
     {
       title: 'Diseñador UX|UI y Front-end Developer',
       company: 'MyCaribu',
-      sector: 'insurtech',
+      sector: 'Insurtech',
       modality: 'Remoto',
       startDate: 'Ene. 2020',
       endDate: 'Dic. 2020',
